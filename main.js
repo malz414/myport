@@ -1,9 +1,10 @@
 import './style.css';
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import * as THREE from '/node_modules/.vite/deps/three.js?v=225e615d';
+import { OrbitControls } from '/node_modules/.vite/deps/three_examples_jsm_controls_OrbitControls.js?v=133f9249';
 
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { AudioLoader } from 'three';
+import { GLTFLoader } from '/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=c905f4cd';
+import { AudioLoader } from '/node_modules/.vite/deps/three.js?v=225e615d';
+
 
 // Setup
 var balloon1, balloon2, balloon3, mouse, raycaster, selected = null;
