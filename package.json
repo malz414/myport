@@ -22,7 +22,7 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malz414/myport.git"
+    "url": "https://github.com/malz414/myport"
   },
   "keywords": [
     "portfol"
@@ -33,4 +33,7 @@
     "url": "https://github.com/malz414/myport/issues"
   },
   "homepage": "https://github.com/malz414/myport#readme"
+}
+{
+  "type": "module"
 }
