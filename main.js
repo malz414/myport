@@ -1,8 +1,7 @@
 import './style.css';
-import * as THREE from '/node_modules/.vite/deps/three.js?v=225e615d';
-import { OrbitControls } from '/node_modules/.vite/deps/three_examples_jsm_controls_OrbitControls.js?v=133f9249';
-
-import { GLTFLoader } from '/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=c905f4cd';
+import * as THREE from 'https://cdn.skypack.dev/three@0.129.0/build/three.module.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js';
 import { AudioLoader } from '/node_modules/.vite/deps/three.js?v=225e615d';
 
 
