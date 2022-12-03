@@ -19,7 +19,7 @@
     "three": "^0.145.0"
   },
   "description": "gh page",
-  "main": "main.js",
+  "main": "./main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/malz414/myport"
@@ -34,6 +34,4 @@
   },
   "homepage": "https://github.com/malz414/myport#readme"
 }
-{
-  "type": "module"
-}
+
